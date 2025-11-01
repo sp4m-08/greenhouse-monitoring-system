@@ -38,7 +38,7 @@ const initialAuthToken =
   typeof __initial_auth_token !== "undefined" ? __initial_auth_token : null;
 
 // --- FASTAPI ML ENDPOINT ---
-const API_URL = "http://localhost:8000/predict";
+const API_URL = "https://greenhouse-backend-1.onrender.com/predict";
 
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
